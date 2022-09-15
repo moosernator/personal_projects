@@ -1,0 +1,88 @@
+*
+{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    min-height: 30px;
+    margin: 0px;
+    padding: 15px;
+    color:rgb(111, 111, 111);
+    border: 5px solid rgb(111, 111, 111);
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    right: 50%;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(15, 14, 14, 0.552);
+}
+
+#player_1_score{
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 8%;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(15, 14, 14, 0.552);
+}
+
+#player_2_score{
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    right: 8%;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(15, 14, 14, 0.552);
+
+}
+
+#player_1{
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+	height: 80px;
+    right: 10%;
+    border-radius: 40px;
+    background-color: rgb(111, 111, 111);
+    box-shadow: 3px 3px 10px rgba(170, 170, 170, 0.992);
+}
+
+#player_2{
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+	height: 80px;
+    right: 90%;
+    border-radius: 40px;
+    background-color: rgb(111, 111, 111);
+    box-shadow: 3px 3px 10px rgba(170, 170, 170, 0.992);
+}
+
+#ball {
+    position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 50%;
+	top: 55%;
+	background-color: rgb(224, 34, 34);
+    box-shadow: 3px 3px 10px rgba(170, 170, 170, 0.992);
+	border-radius: 7.5px;
+}
